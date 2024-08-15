@@ -1,0 +1,85 @@
+body {
+    background-color: #f5f5f5; /* Light gray background */
+    color: #333333; /* Dark text */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Form control styles */
+.form-control {
+    background-color: #ffffff; /* White background */
+    color: #333333; /* Dark text */
+    border: 1px solid #cccccc; /* Light gray border */
+    border-radius: 0.25rem;
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+    box-shadow: none /* Blue glow on focus */
+}
+
+/* List item styles */
+.list-group-item {
+    background-color: #ffffff; /* White background */
+    color: #333333; /* Dark text */
+    border: 1px solid #dddddd; /* Light gray border */
+    border-radius: 0.25rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.list-group-item:hover {
+    border-color: #007bff; /* Blue border on hover */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Blue glow on hover */
+}
+
+/* Button styles */
+.btn {
+    background-color: #007bff; /* Blue background */
+    color: #ffffff; /* White text */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 0.25rem;
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    border-color: #0056b3; /* Darker blue border on hover */
+}
+
+/* Input group text styles */
+.input-group-text {
+    background-color: #007bff; /* Blue background */
+    color: #ffffff; /* White text */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 0.25rem 0 0 0.25rem;
+}
+
+.input-group-text:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    border-color: #0056b3; /* Darker blue border on hover */
+}
+
+.input-group-text:focus {
+    background-color: #0056b3; /* Darker blue on focus */
+    border-color: #0056b3; /* Darker blue border on focus */
+}
+
+/* Font Awesome icon styles */
+.fas {
+    color: #333333; /* Dark icon color */
+    cursor: pointer;
+}
+
+.fas:hover {
+    color: #007bff; /* Blue icon color on hover */
+}
+
+.form-check-input:checked + .todo-input {
+    text-decoration: line-through;
+    color: #888888; /* Light gray color for completed items */
+}
+
+/* Danger background color for list item */
+.list-group-item.danger {
+    background-color: #dc3545; /* Bootstrap danger color */
+    color: #ffffff; /* White text */
+}
